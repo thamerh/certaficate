@@ -1,0 +1,184 @@
+*{
+    margin: 0%;
+    
+}
+
+
+#thamer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;  
+  width: 100%;
+  
+  }
+  
+  .aa{
+    float: left;
+    border-right:1px solid rgb(6, 221, 250);
+  }
+  
+  .aa a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    background-color: #111;
+  }
+  
+  .aa a:hover:not(.active) {
+    
+    padding-left: 250px;
+    padding-right: 250px;
+
+  }
+  
+  .active {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    background-color: rgb(48, 201, 48);
+    
+  }
+  #logo{
+      
+
+      width:10%;
+      float: right;
+      height:46px;
+      width: 50%;
+     
+  }
+  
+  
+  #ha{
+    width: 50%;
+    position: absolute;
+    left:0px;
+      top: 46px;
+      
+      background-color: pink;
+      height:825px;
+  }
+
+  #web{
+      width:100%
+      
+      
+      
+  }
+  fieldset ul li a{
+      text-decoration: none;
+      color: rgba(241, 4, 56, 0.986)  ;
+      
+  }
+  #haha{
+    position: absolute;
+     right:0px;
+   top: 46px;
+    width: 50%;
+    height:825px;
+    background-color: pink;
+  }
+   h1{ 
+    border:1px solid black;
+    text-align:center;
+  }
+#mobile{
+    width: 100%;
+    height: 222.92px;
+}
+#google{
+    width:70px;
+    height: 53px;
+  
+
+}
+#facebook{
+    width:70px;
+    height: 53px;
+   
+}
+#youtube{
+    width:70px;
+    height: 53px;
+}
+
+h3{
+    background-color:#333;
+    
+    height: 35px;
+    color: white;
+    font-size:20px;
+    text-align: center;
+    padding-top:5px
+}
+#center{
+    position: relative;
+    right: -230px;
+}
+#ha fieldset{
+    padding-top:50px ;
+   
+}
+#about{
+    position: relative;
+    top: 90px;
+    height: 250px;
+    background-color:  rgb(255, 255, 255);
+    border: 2px solid rgb(248, 10, 49);
+}
+#about h1{
+    text-align: center;
+    border: 1px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#about p{
+    font-size: 25px;
+    padding: 25px;
+}
+
+@media only screen and (max-width:420px){
+   
+    #header li{
+        width: 100%;
+        border: 1px solid white;
+    }
+    
+    #ha{
+        position: absolute;
+        left:0px;
+        top: 170px;
+        height: 820px;
+        float: none;
+        width: 100%;
+    }
+    #haha{
+          
+        float: none;
+        position: absolute;
+         left:0px;
+         top: 820px;
+         width: 100%;
+         height:840px;
+      }
+  #center{
+      position: relative;
+      left:50px;
+  }
+ 
+#about h1{
+    text-align: center;
+    border: 1px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#about p{
+    font-size: 20px;
+    
+    padding: 0px;
+}
+
